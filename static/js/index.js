@@ -23,10 +23,10 @@ const navigateTo = (url) => {
 
 const router = async () => {
   const routes = [
-    { path: "/", view: Dashboard },
-    { path: "/posts", view: Posts },
-    { path: "/posts/:id", view: PostView },
-    { path: "/settings", view: Settings },
+    { path: "/vanilla-singlepage/", view: Dashboard },
+    { path: "/vanilla-singlepage/posts", view: Posts },
+    { path: "/vanilla-singlepage/posts/:id", view: PostView },
+    { path: "/vanilla-singlepage/settings", view: Settings },
   ];
 
   // Test each route for potential match
