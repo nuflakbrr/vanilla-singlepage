@@ -3,6 +3,7 @@ body {
   margin: 0 0 0 var(--nav-width);
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
+  background: #111827;
 }
 
 .nav {
@@ -11,7 +12,7 @@ body {
   left: 0;
   width: var(--nav-width);
   height: 100vh;
-  background: #222222;
+  background: #1e40af;
 }
 
 .nav__link {
@@ -33,5 +34,5 @@ body {
 }
 
 a {
-  color: #009579;
+  color: #4b80c4;
 }
